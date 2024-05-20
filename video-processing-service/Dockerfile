@@ -28,7 +28,7 @@ RUN npm install --only=production
 
 COPY --from=builder /app/dist ./dist
 
-EXPOSE 3000
+EXPOSE 8080
 
 # Define the command to run app using CMD
 CMD [ "npm", "run", "serve"]
