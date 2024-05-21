@@ -2,8 +2,9 @@
 
 ## Description
 
-This project aims to build a full-stack YouTube clone application using modern technologies. 
-It will feature a web client built with Next.js and a mobile app developed using React Native. The application will allow users to upload, view, and interact with videos, replicating core YouTube functionalities.
+This project aims to build a full-stack YouTube clone application using full-stack technologies. 
+It will feature a web client built with Next.js and Node.js with Express for handling backend service. 
+The application will allow users to upload, view, and interact with videos, replicating core YouTube functionalities.
 
 ## Intended Tech Stack
 - **TypeScript**
