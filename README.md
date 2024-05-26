@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-<img src="video_page.png" alt="Currency image" width="800"/>
+<img src="video_page3.png" alt="Video Playing Page" width="800"/>
 
 
 ## Description
