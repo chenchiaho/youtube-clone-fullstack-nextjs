@@ -1,4 +1,3 @@
-# YouTube Clone
 
 <img src="video_page3.png" alt="Video Playing Page" width="700"/>
 
