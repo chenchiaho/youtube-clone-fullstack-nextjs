@@ -2,9 +2,8 @@
 
 import SignIn from "./sign-in"
 import Link from "next/link"
-
+import Image from "next/image"
 import styles from "./navbar.module.css"
-// import Upload from "./upload"
 import { useEffect, useState } from "react"
 import { onAuthStateChangedHelper } from "../firebase/firebase"
 import { User } from "firebase/auth"
@@ -28,9 +27,8 @@ function NavBar() {
     return (
         <nav className={styles.nav}>
             <Link href="/">
-                <span className={styles.logoContainer}>
-                    <img className={styles.logo} src="/youtube-logo.svg" alt="YouTube Logo" />
-                </span>
+                <Image width={90} height={20}
+                    src="/youtube-logo.svg" alt="YouTube Logo" />
             </Link>
             {
                 user && <Upload />
