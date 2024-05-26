@@ -1,14 +1,11 @@
 # YouTube Clone
 
-## Screenshots
-
-<img src="video_page3.png" alt="Video Playing Page" width="800"/>
-
+<img src="video_page3.png" alt="Video Playing Page" width="700"/>
 
 ## Description
 
-This project aims to build a full-stack YouTube clone application using full-stack technologies. 
-It will feature a web client built with Next.js and Node.js with Express for handling backend service. 
+This project aims to build a YouTube clone application using full-stack technologies. 
+It will feature a web client built with Next.js and Node.js with Express for handling backend video processing, and utilize google cloud to handle user data, and store videos. 
 The application will allow users to upload, view, and interact with videos, replicating core YouTube functionalities.
 
 ## Intended Tech Stack
@@ -29,5 +26,5 @@ The application will allow users to upload, view, and interact with videos, repl
 - **Host videos:** Users can upload and share videos.
 - **User authentication (sign in/out):** Secure user authentication with Firebase Auth.
 - **Video upload and processing:** Upload videos, which will be processed using FFmpeg.
-- **Watch videos:** Users can watch videos, including transcoded versions for different resolutions.
-- **Manage video metadata:** Edit and manage video titles, descriptions, and other metadata.
+- **Video resolution handling:** Uploaded videos are transcoded to different resolution before being displayed.
+
