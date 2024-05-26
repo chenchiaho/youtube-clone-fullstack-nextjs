@@ -1,4 +1,9 @@
-# YouTube Clone (In Progress)
+# YouTube Clone
+
+## Screenshots
+
+<img src="video_page.png" alt="Currency image" width="800"/>
+
 
 ## Description
 
