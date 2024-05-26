@@ -25,5 +25,4 @@ The application will allow users to upload, view, and interact with videos, repl
 - **Host videos:** Users can upload and share videos.
 - **User authentication (sign in/out):** Secure user authentication with Firebase Auth.
 - **Video upload and processing:** Upload videos, which will be processed using FFmpeg.
-- **Video resolution handling:** Uploaded videos are transcoded to different resolution before being displayed.
 
