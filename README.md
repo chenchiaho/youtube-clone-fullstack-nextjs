@@ -4,13 +4,13 @@
 ## Description
 
 This project aims to build a YouTube clone application using full-stack technologies. 
-It will feature a web client built with Next.js and Node.js with Express for handling backend video processing, and utilize google cloud to handle user data, and store videos. 
+It features a web client built with Next.js and Node.js with Express for handling backend video processing, and utilizes Google Cloud to handle user data, and store videos. 
 The application will allow users to upload, view, and interact with videos, replicating core YouTube functionalities.
 
 ## Directory
 yt-web-client - Frontend Nextjs <br/>
-yt-api-service - Google Cloud Interactions <br/>
-video-processing-service - video processing with Node.js
+yt-api-service - Defines Google Cloud Functions <br/>
+video-processing-service - Handles video processing with FFmpeg
 
 ## Tech Stack
 - **TypeScript**
