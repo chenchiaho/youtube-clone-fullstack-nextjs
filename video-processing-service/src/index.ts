@@ -20,6 +20,7 @@ app.post('/process-video', async (req, res) => {
     let data
 
     try {
+        // Convert pub/sub message (base64-encoded format) to utf-8
         const message = Buffer.from(req.body.message.data, 'base64').toString('utf8')
 
         data = JSON.parse(message)
@@ -44,8 +45,6 @@ app.post('/process-video', async (req, res) => {
             status: 'processing'
         })
     }
-
-
 
     // Download the raw video from Cloud Storage
     await downloadRawVideo(inputFileName)
