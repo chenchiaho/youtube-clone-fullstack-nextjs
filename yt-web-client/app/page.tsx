@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <div className={styles.main}>
       {videos.map((video) => {
-        const fileName = video?.filename?.split('-').slice(2).join('-').split('.')[0];
+        const fileName = video?.filename?.split('-').slice(2).join('-').split('.')[0]
         return (
           <Link href={`/watch?v=${video.filename}`} key={video.id} className={styles.videoContainer}>
             <Image
@@ -27,5 +27,3 @@ export default async function Home() {
     </div>
   )
 }
-
-export const revalidate = 10
