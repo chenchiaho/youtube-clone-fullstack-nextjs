@@ -8,8 +8,8 @@ It will feature a web client built with Next.js and Node.js with Express for han
 The application will allow users to upload, view, and interact with videos, replicating core YouTube functionalities.
 
 ## Directory
-yt-web-client - Frontend Nextjs
-yt-api-service - Google Cloud Interactions
+yt-web-client - Frontend Nextjs <br/>
+yt-api-service - Google Cloud Interactions <br/>
 video-processing-service - video processing with Node.js
 
 ## Tech Stack
