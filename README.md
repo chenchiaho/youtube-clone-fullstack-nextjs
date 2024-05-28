@@ -12,6 +12,10 @@ yt-web-client - Frontend Nextjs <br/>
 yt-api-service - Defines Google Cloud Functions <br/>
 video-processing-service - Handles video processing with FFmpeg
 
+## Video Flow Chart
+
+<img src="flow-chart3.png" alt="Flow Chart" width="1000"/>
+
 ## Tech Stack
 - **TypeScript**
 - **Next.js**
